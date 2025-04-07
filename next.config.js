@@ -1,8 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   experimental: {
-    appDir: true,
+    // Remove the appDir key if it's not needed
+    // appDir: true,
   },
 };
-
-module.exports = nextConfig;
